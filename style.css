@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 100vh;
+  background: hsl(0, 6%, 90%);
+}
+h1 {
+  font-size: 4rem;
+  font-family: 'Arial', sans-serif;
+  color: hsl(0, 0%, 25%);
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 5px solid rgb(52, 51, 51);
+  border-radius: 50px;
+  background-color: rgb(245, 236, 236);
+}
+.timer {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 1%, 47%, 0.75);
+  margin-bottom: 25px;
+}
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.btn-start {
+  background-color: hsl(115, 100%, 40%);
+}
+.btn-start:hover {
+  background-color: hsl(115, 100%, 30%);
+}
+.btn-stop {
+  background-color: hsl(10, 90%, 50%);
+}
+.btn-stop :hover {
+  background-color: hsl(10, 90%, 40%);
+}
+.btn-reset {
+  background-color: hsl(205, 90%, 60%);
+}
+.btn-reset {
+  background-color: hsl(205, 90%, 50%);
+}
